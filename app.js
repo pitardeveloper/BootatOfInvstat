@@ -315,7 +315,7 @@ client.on('message' , message => {
 
 
 client.on('message' , message => {
-    if (message.content === "!supportfalse") {
+    if (message.content === "!support") {
         if(!message.channel.guild) return message.reply('This Command is Only For Servers');
      const embed = new Discord.RichEmbed()
  .setColor("RANDOM")
